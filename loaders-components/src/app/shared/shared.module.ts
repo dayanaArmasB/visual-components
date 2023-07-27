@@ -16,7 +16,8 @@ import { VerifModalComponent } from './verif-modal/verif-modal.component';
   ],
   exports: [
     Loader1Component,
-    Loader2Component
+    Loader2Component, 
+    VerifModalComponent
   ]
 })
 export class SharedModule { }
