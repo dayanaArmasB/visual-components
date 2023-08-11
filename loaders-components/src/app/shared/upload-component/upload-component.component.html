@@ -5,7 +5,7 @@
       </ngx-dropzone-label>
       <ngx-dropzone-preview ngProjectAs="ngx-dropzone-preview" [removable]="true" (removed)="onRemove(f)" *ngFor="let f of files" [file]="f">
         <ngx-dropzone-label class="flex">
-          <fa-icon [icon]="['fas', 'file-image']" style="font-size: 1.8rem; color:#658739; margin-right: 0.5rem;"></fa-icon>
+          <!-- <fa-icon [icon]="['fas', 'file-image']" style="font-size: 1.8rem; color:#658739; margin-right: 0.5rem;"></fa-icon> -->
           <label style="font-size:1.2; font-weight:500">
              {{ f.name }}
           </label>
