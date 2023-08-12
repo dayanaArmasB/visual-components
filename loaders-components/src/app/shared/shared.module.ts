@@ -5,13 +5,15 @@ import { Loader2Component } from './loader2/loader2.component';
 import { VerifModalComponent } from './verif-modal/verif-modal.component';
 import { UploadComponentComponent } from './upload-component/upload-component.component';
 import { NgxDropzoneModule } from 'ngx-dropzone';
+import { UploadComponent } from './upload/upload.component';
 
 @NgModule({
   declarations: [
     Loader1Component,
     Loader2Component,
     VerifModalComponent,
-    UploadComponentComponent
+    UploadComponentComponent,
+    UploadComponent
   ],
   imports: [
     CommonModule,
@@ -21,7 +23,8 @@ import { NgxDropzoneModule } from 'ngx-dropzone';
     Loader1Component,
     Loader2Component, 
     VerifModalComponent,
-    UploadComponentComponent
+    UploadComponentComponent,
+    UploadComponent
   ]
 })
 export class SharedModule { }

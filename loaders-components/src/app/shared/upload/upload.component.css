@@ -1,0 +1,33 @@
+/* Estilos para el contenedor principal */
+#container-dropzone {
+    padding: 15px;
+    border: 1.5px dashed #e74c3c;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    gap: 10px;
+}
+
+/* Estilos para el título */
+#container-dropzone h3 {
+    font-size: 1.2rem;
+    color: #e74c3c;
+    margin: 0;
+    text-align: center;
+}
+
+/* Estilos para los elementos de vista previa */
+.ngx-dropzone-preview {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilos para el nombre del archivo */
+.ngx-dropzone-label label {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #333;
+}

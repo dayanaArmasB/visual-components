@@ -1,12 +1,11 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-upload-component',
-  templateUrl: './upload-component.component.html',
-  styleUrls: ['./upload-component.component.css']
-
+  selector: 'app-upload',
+  templateUrl: './upload.component.html',
+  styleUrls: ['./upload.component.css']
 })
-export class UploadComponentComponent {
+export class UploadComponent {
   files: File[] = []; 
 
   onSelect(event: any) {
@@ -23,6 +22,3 @@ export class UploadComponentComponent {
     this.files.splice(this.files.indexOf(event),1);
   };
 }
-
-
-
